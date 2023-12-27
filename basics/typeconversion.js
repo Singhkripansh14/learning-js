@@ -1,14 +1,25 @@
-let name="kripansh"
-let id=131;
-let idString='131abc'
-// console.log(typeof idString)
-let idInNumber=Number(idString)
-let score="kripu"
-let scoreInNumber=Number(score)
-// console.log(typeof idInNumber)
-// console.log(idInNumber)
-// console.log(typeof NaN)
-console.log(typeof scoreInNumber)
-console.log(scoreInNumber)
+//string ->number
+let myName='kripansh'
+let roll_no='131'
+let password='2001abc'
 
-let islogedIn=1
+let convertedAsNumber=Number(myName)
+console.log(converetedAsNumber)
+console.log(typeof convertedAsNumber)
+
+//Number->boolean
+const pi=3.14
+let id=0
+let result=null
+let finding=NaN
+
+let convertedAsBoolean=Boolean(pi)
+
+console.log(convertedAsBoolean)
+console.log(typeof covertedAsBoolean)
+
+//string->boolean
+
+let MyClass='IT'
+
+
